@@ -1,0 +1,57 @@
+body{
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+#div1{
+    background-color: lavender;
+    width: 100%;
+}
+
+#h12{
+    font-size: 40px;
+    font-weight: 700;
+    color: darkolivegreen;
+    background-color: lavender;
+    float: left;
+    width: 80%;
+}
+
+#btn1{
+    float: right;
+    margin: 30px;
+    width: 10%;
+}
+
+#btn1, #btn2:hover{
+    font-weight: 700;
+    transition: transform.2s;
+}
+
+#label, #confidence{
+    font-size: 20px;
+    font-weight: 700;
+    float: left;
+    margin-top: 100px ;
+    margin-left: 75px;
+    position: fixed;
+}
+
+#btn2{
+    position: fixed;
+    bottom: 50;
+    left: 910;
+}
+
+canvas{
+    margin-top: 65px;
+    animation-name: canvase;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-radius: 12px;
+    border: 5px groove seagreen;
+}
+@keyframes canvase{
+    from{box-shadow: 1px 1px 1px 12px seagreen;}
+    to{box-shadow: 1px 1px 1px 12px rgb(185, 254, 185);}
+}
